@@ -120,7 +120,13 @@ module.exports = {
     ],
 
     ['script', {}, darkModeFix],
-    ['script', { src: '', async: true }],
+    [
+      'script',
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-XDC4B5HZPS',
+        async: true,
+      },
+    ],
     [
       'script',
       {},
