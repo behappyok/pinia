@@ -34,7 +34,7 @@ module.exports = {
   base: '/pinia/',
   title: 'Pinia',
   lang: 'en-US',
-  description: 'The Vue Store that you will enjoy using',
+  description: '您将会喜欢上的Vue状态管理库 ',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
