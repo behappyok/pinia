@@ -31,6 +31,7 @@ const darkModeFix = require('fs').readFileSync(
  * @type {import('vitepress').UserConfig}
  */
 module.exports = {
+  base: '/pinia/',
   title: 'Pinia',
   lang: 'en-US',
   description: 'The Vue Store that you will enjoy using',
