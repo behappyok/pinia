@@ -3,7 +3,7 @@ import { Layout } from './Layout'
 import './custom.css'
 import './code-theme.css'
 // import { createPinia } from '../../../src'
-
+import { watch } from 'vue'
 /** @type {import('vitepress').Theme} */
 const config = {
   ...Theme,
