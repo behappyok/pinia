@@ -33,7 +33,7 @@ const darkModeFix = require('fs').readFileSync(
 module.exports = {
   base: '/pinia/',
   title: 'Pinia',
-  lang: 'en-US',
+  lang: 'zh-CN',
   description: '您将会喜欢上的Vue状态管理库 ',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],

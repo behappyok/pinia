@@ -1,25 +1,25 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: 入门
+actionText: Get Started
 actionLink: /introduction.html
 
-altActionText: 演示
+altActionText: Demo
 altActionLink: https://y4dfi.csb.app
 
 features:
-  - title: 💡 直观
-    details: store和组件用法一样。精心设计的API使您能够写出结构良好的store.
-  - title: 🔑 类型安全
-    details: 类型是可推断的，这意味着即使在 JavaScript 中， store也可以为您提供自动补全！
-  - title: ⚙️ 支持开发者工具
-    details: Pinia 与 Vue devtools 紧密连接，为您提供更好的 Vue 2 和 Vue 3 开发体验。
-  - title: 🔌 可扩展
-    details: 对store的更改是响应式的，这使得Pinia更易于通过事务、本地存储进行扩展。
-  - title: 🏗 模块化设计
-    details: 可构建多个store并使您的打包程序能够进行自动拆分。
-  - title: 📦 极其轻量
-    details: Pinia 约 1kb，您甚至会忘记它的存在！!
+  - title: 💡 Intuitive
+    details: Stores are as familiar as components. API designed to let you write well organized stores.
+  - title: 🔑 Type Safe
+    details: Types are inferred, which means stores provide you with autocompletion even in JavaScript!
+  - title: ⚙️ Devtools support
+    details: Pinia hooks into Vue devtools to give you an enhanced development experience in both Vue 2 and Vue 3.
+  - title: 🔌 Extensible
+    details: React to store changes to extend Pinia with transactions, local storage synchronization, etc.
+  - title: 🏗 Modular by design
+    details: Build multiple stores and let your bundler code split them automatically.
+  - title: 📦 Extremely light
+    details: Pinia weighs around 1kb, you will forget it's even there!
 footer: MIT Licensed | Copyright © 2019-present Eduardo San Martin Morote
 ---
 
