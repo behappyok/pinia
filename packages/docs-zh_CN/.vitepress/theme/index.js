@@ -10,7 +10,7 @@ const config = {
 
   Layout,
 
-  enhanceApp({ app }) {
+  enhanceApp({ app, router }) {
     // app.use(createPinia())
     if (globalThis && globalThis.gtag)
       watch(router.route, () => {
