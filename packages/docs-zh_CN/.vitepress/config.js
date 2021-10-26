@@ -120,6 +120,13 @@ module.exports = {
     ],
 
     ['script', {}, darkModeFix],
+    ['script', { src: '', async: true }],
+    [
+      'script',
+      {},
+      `window.GA_MEASUREMENT_ID = 'G-XDC4B5HZPS';window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());`,
+    ],
+
     ...(isProduction ? productionHead : []),
   ],
 

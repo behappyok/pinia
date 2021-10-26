@@ -12,6 +12,12 @@ const config = {
 
   enhanceApp({ app }) {
     // app.use(createPinia())
+    if (globalThis && globalThis.gtag)
+      watch(router.route, () => {
+        gtag('config', window.GA_MEASUREMENT_ID, {
+          page_path: router.route.path,
+        })
+      })
   },
 }
 
