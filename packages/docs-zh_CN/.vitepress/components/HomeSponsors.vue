@@ -1,11 +1,3 @@
-<!--
- * @Description  : 
- * @Author       : zyl
- * @Date         : 2021-10-25 16:40:59
- * @LastEditTime : 2021-10-26 08:54:42
- * @FilePath     : \\pinia\\packages\\docs-zh_CN\\.vitepress\\components\\HomeSponsors.vue
- * Copyright (C) 2021 windmagics. All rights reserved.
--->
 <template>
   <div class="sponsors_outer">
     <div>

@@ -34,7 +34,7 @@ import { computed } from 'vue'
 import type { PropType } from 'vue'
 import { darkStorageConfig } from '../theme/dark-theme'
 import { useDark } from '@vueuse/core'
-
+import { withBase } from 'vitepress'
 const isDark = useDark(darkStorageConfig)
 
 const props = defineProps({
@@ -51,7 +51,7 @@ const props = defineProps({
 const list = computed(() =>
   sponsors[props.name.toLowerCase()].map((sponsor) => ({
     ...sponsor,
-    imgSrc: isDark.value ? sponsor.imgSrcDark : sponsor.imgSrcLight,
+    imgSrc: withBase(isDark.value ? sponsor.imgSrcDark : sponsor.imgSrcLight),
   }))
 )
 </script>
