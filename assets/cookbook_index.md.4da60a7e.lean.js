@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,a as i}from"./app.fb0cb03d.js";const u='{"title":"Cookbook","description":"","frontmatter":{},"relativePath":"cookbook/index.md","lastUpdated":1637048271678}',a={},s=i('',2),r=[s];function n(c,l,h,d,m,p){return t(),o("div",null,r)}var f=e(a,[["render",n]]);export{u as __pageData,f as default};
